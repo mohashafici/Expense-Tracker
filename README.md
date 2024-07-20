@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Expense Tracker App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and intuitive Expense Tracker application built with React for the frontend and Firebase for the backend. This project demonstrates how to add, edit, and delete expenses, along with user authentication using Firebase.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **User Authentication**: Sign up and login using Firebase Authentication.
+- **Expense Management**: Add, edit, and delete expenses with ease.
+- **Responsive Design**: Works on both desktop and mobile devices.
+- **Deployment**: Hosted on GitHub Pages for easy access.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: A JavaScript library for building user interfaces.
+- **Firebase**:
+  - **Authentication**: For user sign-up and login.
+  - **Firestore**: For storing and managing expenses.
+  - **Hosting**: For deploying the application.
+- **React Router**: For navigation between different pages.
+- **Tailwind CSS**: For styling the application.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots
 
-### `npm test`
+### Get Started Screen
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="./Screenshots/getstarted.PNG" alt="Get Started Page" width="400">
 
-### `npm run build`
+### Sign In Screen
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src="./Screenshots/Sigin.PNG" alt="Sign In Page" width="400">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Sign Up Screen
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img src="./Screenshots/signup.PNG" alt="Sign Up Page" width="400">
 
-### `npm run eject`
+### Home Page
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img src="./Screenshots/home.PNG" alt="Home Page" width="400">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Expenses Page
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img src="./Screenshots/mainpage.PNG" alt="Expenses Page" width="400">
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### New Expenses Page
 
-## Learn More
+<img src="./Screenshots/newExpense.PNG" alt="Expenses Page" width="400">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Demo
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Check out the live demo of the app here: [Live Demo](https://camaarjune.github.io/Expense-Tracker/)
 
-### Code Splitting
+## Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Follow these instructions to set up the project locally.
 
-### Analyzing the Bundle Size
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Node.js and npm installed
+- Firebase account
 
-### Making a Progressive Web App
+### Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/camaarjune/Expense-Tracker.git
+   cd Expense-Tracker
