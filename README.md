@@ -64,3 +64,4 @@ Follow these instructions to set up the project locally.
    ```bash
    git clone https://github.com/camaarjune/Expense-Tracker.git
    cd Expense-Tracker
+"# Expense-Tracker" 
